@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/style.css" />
+    <title>Dark Mode</title>
+  </head>
+  <body>
+    <body>
+      <div class="header">
+        <div class="nav">
+          <button class="toggleButton">
+            <svg width="30" height="30" id="lightIcon">
+              <circle cx="15" cy="15" r="6" fill="currentColor" />
+              <line
+                id="ray"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                x1="15"
+                y1="1"
+                x2="15"
+                y2="4"
+              ></line>
+              <use href="#ray" transform="rotate(45 15 15)" />
+              <use href="#ray" transform="rotate(90 15 15)" />
+              <use href="#ray" transform="rotate(135 15 15)" />
+              <use href="#ray" transform="rotate(180 15 15)" />
+              <use href="#ray" transform="rotate(225 15 15)" />
+              <use href="#ray" transform="rotate(270 15 15)" />
+              <use href="#ray" transform="rotate(315 15 15)" />
+            </svg>
+            <svg width="30" height="30" id="darkIcon">
+              <path
+                fill="currentColor"
+                d="
+      M 23, 5
+      A 12 12 0 1 0 23, 25
+      A 12 12 0 0 1 23, 5"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <section class="section">
+        <div class="title">
+          <h1>Dark Mode</h1>
+        </div>
+        <p>
+          Dark mode is an increasingly popular feature in software and devices
+          for several reasons, including user comfort, aesthetic appeal, and
+          practical benefits. Here's why dark mode is considered important:
+        </p>
+        <h3>1. <strong>Reduces Eye Strain</strong></h3>
+        <ul>
+          <li>
+            In low-light environments, dark mode can be easier on the eyes
+            because it reduces the amount of blue light emitted by screens and
+            minimizes glare.
+          </li>
+          <li>
+            The contrast between the text and background in dark mode can also
+            make it more comfortable for prolonged viewing.
+          </li>
+        </ul>
+        <h3>2. <strong>Improves Battery Life</strong></h3>
+        <ul>
+          <li>
+            On devices with OLED or AMOLED screens, dark mode can save battery
+            life. These types of screens individually light up each pixel, so
+            dark areas require less power.
+          </li>
+          <li>
+            For users concerned about maximizing their device's battery life,
+            dark mode can make a noticeable difference.
+          </li>
+        </ul>
+        <h3>3. <strong>Enhances Accessibility</strong></h3>
+        <ul>
+          <li>
+            Some users with light sensitivity or visual impairments find dark
+            mode more comfortable to use.
+          </li>
+          <li>
+            It can also reduce migraines or eye discomfort for individuals
+            sensitive to bright screens.
+          </li>
+        </ul>
+        <h3>4. <strong>Better for Nighttime Use</strong></h3>
+        <ul>
+          <li>
+            Dark mode helps prevent "light shock" in dark environments, such as
+            using your phone or computer late at night.
+          </li>
+          <li>
+            Reducing exposure to bright light in the evening can help maintain
+            natural circadian rhythms, potentially improving sleep quality.
+          </li>
+        </ul>
+        <h3>5. <strong>Aesthetic Appeal</strong></h3>
+        <ul>
+          <li>
+            Many users simply prefer the sleek and modern look of dark mode. It
+            offers a different visual experience that some find more appealing
+            than bright or white backgrounds.
+          </li>
+        </ul>
+        <h3>6. <strong>Customizability and User Preference</strong></h3>
+        <ul>
+          <li>
+            Offering a dark mode option allows apps and devices to cater to a
+            wider range of user preferences.
+          </li>
+          <li>
+            Some users switch between dark and light modes based on the time of
+            day or their environment, appreciating the flexibility.
+          </li>
+        </ul>
+        <h3>Limitations and Considerations</h3>
+        <ul>
+          <li>
+            <strong>Readability:</strong> Dark mode may reduce readability for
+            some users, especially in bright environments, as black backgrounds
+            with white text can lead to reduced contrast.
+          </li>
+          <li>
+            <strong>Not Always Universally Better:</strong> It works best in
+            low-light settings but might not be ideal for all-day use in
+            well-lit areas.
+          </li>
+        </ul>
+        <p>
+          Overall, dark mode is important because it caters to diverse needs and
+          enhances the user experience in ways that adapt to individual comfort
+          and modern technology.
+        </p>
+      </section>
+    </body>
+    <script type="module" src="/src/index.ts"></script>
+  </body>
+</html>
